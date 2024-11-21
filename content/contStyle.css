@@ -125,3 +125,149 @@ body{
     right: 15px;
     bottom: 0px;
 }
+
+.services{
+    width: 1280px;
+    height: 922px;
+    position: relative; 
+}
+.services .baslikcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services .baslikcontainer .servbaslik{
+    font-family: "Montserrat", sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 53.64px;
+    color: black;
+    margin-top: 115px;
+}
+.services .baslikcontainer .baslikyani{
+    display: flex;
+    margin-top: 137px;
+    padding-left: 13px;
+}
+.services .baslikcontainer .baslikyani .emojiyani{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30.48px;
+    color: #6C63FF;
+    display: flex;
+    align-items: center;
+}
+.services .cizgiveyazi {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center; 
+    margin-top: 10px;
+}
+.services .cizgiveyazi .baslikaltiyazi {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    color: #B7B3B3;
+    opacity: 80%;
+    margin-top: 36px;
+}
+.services .kutukapsayici{
+    margin-top: 39px;
+}
+
+.services .kutukapsayici .soltwix .kutu1{
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+    max-width: 510px;
+    max-height: 110px;
+    position: absolute;
+    left: 109px;
+}
+.services .kutukapsayici .soltwix .kutu2{
+    display: flex;
+    gap: 20px;
+    max-width: 510px;
+    max-height: 110px;
+    margin-top: 212px;
+    margin-left: 8px;
+    position: absolute;
+    left: 109px;
+}
+.services .kutukapsayici .soltwix .kutu1 .bank{
+    width: 92px;
+    height: 95px;
+}
+.services .kutukapsayici .soltwix .kutu1 .solyazi1,
+.services .kutukapsayici .soltwix .kutu2 .solyazi2,
+.services .kutukapsayici .sagtwix .kutu3 .sagyazi1,
+.services .kutukapsayici .sagtwix .kutu4 .sagyazi2
+{
+    display: flex;
+    flex-direction: column;
+}
+.services .kutukapsayici .soltwix .kutu1 .solyazi1 .ust1,
+.services .kutukapsayici .soltwix .kutu2 .solyazi2 .ust2,
+.services .kutukapsayici .sagtwix .kutu3 .sagyazi1 .ust3,
+.services .kutukapsayici .sagtwix .kutu4 .sagyazi2 .ust4
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36.57px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 19px;
+}
+.services .kutukapsayici .soltwix .kutu1 .solyazi1 .alt1,
+.services .kutukapsayici .soltwix .kutu2 .solyazi2 .alt2,
+.services .kutukapsayici .sagtwix .kutu3 .sagyazi1 .alt3,
+.services .kutukapsayici .sagtwix .kutu4 .sagyazi2 .alt4
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    color: #B7B3B3;   
+}
+.services .kutukapsayici .soltwix .kutu2 .mobile{
+    width: 63.3px;
+    height: 76px;
+}
+
+.services .kutukapsayici .sagtwix .kutu3 {
+    display: flex;
+    gap: 20px;
+    max-width: 511px;
+    max-height: 110px;
+    position: absolute;
+    right: 97px;
+}
+.services .kutukapsayici .sagtwix .kutu3 .fast{
+    width: 95px;
+    height: 92px;
+}
+.services .kutukapsayici .sagtwix .kutu4 .easy{
+    width: 63.6px;
+    height: 76px;
+}
+.services .kutukapsayici .sagtwix .kutu4{
+    display: flex;
+    gap: 20px;
+    max-width: 487px;
+    max-height: 101px;
+    position: absolute;
+    margin-top: 212px;
+    right: 97px;
+}
+.services .solkare{
+    margin-left: 99px;
+    margin-top: -110px;
+}
+.services .sagkare{
+    margin-left: 502px;
+    margin-top: -600px;
+}
