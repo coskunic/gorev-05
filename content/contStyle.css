@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition: .2s linear;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+}
+
+.howitworks{   
+    text-align: center;
+    width: 997px;
+    height: 580px;
+    margin-left: 158px;
+    margin-bottom: 164px;
+}
+.howitworks .baslik {
+    font-family: "Montserrat", sans-serif;
+    font-size: 44px;
+    color: black;
+    font-weight: 600;
+    line-height: 53.64px;
+}
+.howitworks .line1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.howitworks .ortayazi {   
+    text-align: center;
+    max-width: 587px;
+    margin-left: 205px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30.48px;
+    color: black;
+    opacity: 60%; 
+}
+.howitworks .box-container {
+    display: flex;
+    margin-top: 80px;
+}
+.howitworks .box-container .box1 .altbaslik,
+.howitworks .box-container .box2 .altbaslik,
+.howitworks .box-container .box3 .altbaslik{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 56px;
+    margin-bottom: 11px;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 32.91px;
+    color: black;
+}
+.howitworks .box-container .box1 .altyazi,
+.howitworks .box-container .box2 .altyazi,
+.howitworks .box-container .box3 .altyazi{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    color: black;
+    opacity: 60%;
+}
+
+.dusunenadam{
+    width: 1280px;
+    height: 580px; 
+    position: relative;
+}
+.dusunenadam .sol1 .adam{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 109px;
+    z-index: 1;
+}
+.dusunenadam .sol1 .daire{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -16px;
+    z-index: 0;
+}
+.dusunenadam .sag1{
+    position: absolute;
+    right: 101px;
+}
+.dusunenadam .sag1 .yanbaslik{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48.76px;
+    color: black;
+    max-width: 423px;
+    margin-top: 184px;
+}
+.dusunenadam .sag1 .line2{
+    margin-top: 12px;
+}
+.dusunenadam .sag1 .yanyazi{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    color: black;
+    max-width: 399px;
+    margin-top: 36px;
+}
+.dusunenadam .sag1 .yanlink{
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.82px;
+    color: #6C63FF;
+    text-decoration: none;
+    display: block;
+    margin-top: 17px;
+}
+.dusunenadam .altkare{
+    margin-top: 4px;
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+}
